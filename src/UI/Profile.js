@@ -11,7 +11,11 @@ import { ScrollView } from "react-native-gesture-handler";
 
 const ScreenProfile = ({ navigation }) => {
     const handleSave = () => {
-        navigation.navigate('Soporte y Ayuda'); //PARA FAVORITOS Y MIS COMPRAS
+        navigation.navigate('Mis Compras');
+    };
+
+    const handleSave2 = () => {
+        navigation.navigate('Mis Favoritos');
     };
     return (
         <PaperProvider>
@@ -33,8 +37,8 @@ const ScreenProfile = ({ navigation }) => {
             <Text style={styles.Textos}>04/06/2004</Text>
             </View>
             <View style={styles.buttonAccount}>
-                <Button style={styles.boton} onPress={handleSave}>Mis Favoritos</Button>
-                <Button style={styles.boton}>Mis Compras</Button>
+                <Button style={styles.boton} onPress={handleSave2}>Mis Favoritos</Button>
+                <Button style={styles.boton} onPress={handleSave}>Mis Compras</Button>
             </View>
         </View>
         </ScrollView>

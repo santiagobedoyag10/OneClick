@@ -23,7 +23,7 @@ const ScreenDatailsArticles = ({ navigation }) => {
             <Image source={Logo} style={styles.logo}/>
             <Text style={styles.title}>¡Animate a disfrutarde esta oferta!</Text>
             </View>
-            <Card>
+            <Card style={styles.cardStyle}>
             <View style={styles.container_logo}>
             <Card.Cover source={Ipad} style={styles.productImages}/>
             </View>

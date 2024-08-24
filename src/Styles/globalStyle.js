@@ -136,7 +136,64 @@ const styles = StyleSheet.create(
             marginLeft: 30,
             marginRight: 30
         },
-    }
+        favorteContainer: {
+            justifyContent: 'flex-start',
+            alignItems: 'flex-start'
+        },
+        favoriteIncon: {
+            width: 50,
+            height: 50,
+            marginBottom: 'auto',
+            marginRight: 'auto',
+            resizeMode: 'contain'
+        },
+        originalPrice: {
+            textDecorationLine: 'line-through',
+            fontSize: 16,
+            color: 'grey',
+            textAlign: 'center',
+            marginBottom: 4,
+          },
+          discountedPrice: {
+            fontSize: 20,
+            color: '#d32f2f',
+            textAlign: 'center',
+            fontWeight: 'bold',
+            paddingBottom: 8
+          },
+
+          statusPurchase: {
+            flexDirection: 'row',
+            alignItems: 'flex-start',
+            padding: 10,
+          },
+          
+          buttonCart: {
+            backgroundColor: 'rgba(72,226,98,0.2)',
+            paddingVertical: 8,
+            paddingHorizontal: 24,
+            borderRadius: 8,
+            shadowColor: '#000',
+            shadowOffset: { width: 0, height: 2 },
+            shadowOpacity: 0.2,
+            shadowRadius: 4,
+            marginTop: 35,
+            marginLeft: '8%'
+          },
+
+          buttonPaymentCart:{
+            backgroundColor: 'rgba(72,226,98,0.2)',
+            paddingVertical: 12,
+            paddingHorizontal: 24,
+            borderRadius: 8,
+            marginBottom: 24,
+            shadowColor: '#000',
+            shadowOffset: { width: 0, height: 2 },
+            shadowOpacity: 0.2,
+            shadowRadius: 4,
+            marginTop: 35
+        },
+        }
 
 );
 

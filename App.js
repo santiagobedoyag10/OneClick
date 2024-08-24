@@ -2,9 +2,9 @@ import { StatusBar } from 'expo-status-bar';
 import {NavigationContainer} from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import Login from './src/UI/Login';
-import Registro from './src/UI/Registro';
-import Articulos from './src/UI/Articulos';
-import DetalleArticulos from './src/UI/DetalleArticulo';
+import Registro from './src/UI/Register';
+import Articulos from './src/UI/Articles';
+import DetalleArticulos from './src/UI/Details Articles';
 import myAccount from './src/UI/Profile';
 import Supports from './src/UI/HelpSupport';
 import myFavorite from './src/UI/Favorites'
